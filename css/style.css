@@ -1,0 +1,88 @@
+html, body {
+  height: 100%;
+  background-color: #1b1e36;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*margin: 40px 0px 40px 0px; */
+}
+
+.login {
+  position: relative;
+  height: 600px;
+  width: 505px;
+  margin: auto;
+  padding: 60px 60px;
+  background-image: url("https://images.unsplash.com/photo-1438557068880-c5f474830377");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  box-shadow: 0px 30px 60px -5px #000;
+}
+
+.container {
+  width: 300px;
+  line-height: 30px;
+}
+
+.form-control.active {
+  box-shadow: 0 0 5px 1px #008000;
+}
+.form-control.active.invalid {
+  box-shadow: 0 0 5px 1px #bd3535;
+}
+
+.errors {
+  color: #bd3535;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 5px;
+}
+.errors > span {
+  display: block;
+}
+
+.note {
+  color: #fff;
+  margin: 20px 0;
+  text-align: center;
+  opacity: 0.5;
+  text-decoration: none;
+}
+.note:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #1b1e36;
+  color: #fff;
+  width: 100%;
+  padding: 10px 20px;
+  display: block;
+  height: 39px;
+  border-radius: 20px;
+  margin-top: 60px;
+  transition: all 0.5s ease-in-out;
+  border: none;
+  text-transform: uppercase;
+}
+.btn-primary:hover {
+  background: #94762c;
+  box-shadow: 0 4px 35px -5px #94762c;
+  cursor: pointer;
+}
+.btn-primary:focus {
+  outline: none;
+}
